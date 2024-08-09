@@ -1,0 +1,79 @@
+/*--------Course Homepage Stylesheet--------*/
+
+/* Type Selector */
+body {
+    background-color: rgb(1, 105, 146);
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    color: antiquewhite;
+  }
+  
+  li a {
+      text-decoration: none;
+  }
+  
+  ul {
+      list-style-type: none;
+      padding-bottom: 2rem;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 25%;
+  }
+  
+  img:hover {
+    opacity: .5;
+  }
+  
+  
+  ul li a:hover{
+      font-weight: 600;
+  }
+  
+  
+  /* ID Selector */
+  
+  #main-heading {
+    color: antiquewhite;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Class Selector */
+  
+  .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* --- psuedo Selectors ---*/
+  
+  a:link,
+  a:visited {
+    color: antiquewhite;
+  }
+  
+  @media screen and (max-width: 1100px) {
+    body {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 960px) {
+    .container {
+      width: 90vw;
+      margin-top: 1rem;
+    }
+  
+    body {
+      grid-template-columns: 1fr;
+    }
+  
+    img {
+      max-width: 70vw;
+    }
+  }
