@@ -1,5 +1,5 @@
 {
-  "homepage": "https://griffinrevis.github.io/reactjs-study",
+  "homepage": "https://griffinrevis.github.io/reactjs-study/moviedux",
   "name": "moviedux",
   "version": "0.1.0",
   "private": true,
@@ -36,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
